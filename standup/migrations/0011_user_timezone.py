@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='user',
             name='timezone',
-            field=timezone_field.fields.TimeZoneField(default='Europe/Amsterdam'),
+            field=timezone_field.fields.TimeZoneField(default='America/New_York'),
         ),
     ]
